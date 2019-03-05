@@ -2,11 +2,11 @@ class Dog
   
  
   
-@@all = []  
+@@all = [] 
 
 def self.new(name)
  @name = name
- @@all << self
+ @@all << name
 end
   
 
