@@ -11,7 +11,8 @@ end
   
 
 def self.all
-  
+  @@all.each do |name|
+    puts 
   
   
 end
