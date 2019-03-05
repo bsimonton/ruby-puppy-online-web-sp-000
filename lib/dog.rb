@@ -9,9 +9,7 @@ def self.new(name)
  @@all << name
 end
   
-def name
-  @name
-end
+
   
   
   
