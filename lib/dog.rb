@@ -9,7 +9,9 @@ def self.new(name)
  @@all << name
 end
   
-  
+def self.all
+  @@all
+end 
   
   
   
