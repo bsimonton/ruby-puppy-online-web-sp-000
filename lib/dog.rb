@@ -11,8 +11,10 @@ end
   
 
 def self.all
-  @@all.each do |name|
-    puts 
+  @@all.each do |dog|
+    puts dog.name
+  end
+end
   
   
 end
