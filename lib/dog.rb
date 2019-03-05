@@ -1,6 +1,6 @@
 class Dog 
   
-  attr_accessor :name
+ 
   
 @@all = []  
 
@@ -9,7 +9,9 @@ def self.new(name)
  @@all << name
 end
   
-
+def name
+  @name
+end
   
   
   
